@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "netheriteroad2",
+  "version": "0.20.1-DEV",
+  "name": "NetheriteRoad2",
+  "description": "Battle of Heaven and Inferno.",
+  "authors": [
+    "PrincipleCreativity"
+  ],
+  "contact": {
+    "website": "//nero2.principlecreativity.org",
+    "repo": "https://github.com/PrincipleCreativity/NetheriteRoad-2"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/netheriteroad2/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.principlecreativty.netheriteroad2.client.NetheriteRoad2Client"
+    ],
+    "main": [
+      "org.principlecreativty.netheriteroad2.NetheriteRoad2"
+    ]
+  },
+  "mixins": [
+    "NetheriteRoad2.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.18",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
