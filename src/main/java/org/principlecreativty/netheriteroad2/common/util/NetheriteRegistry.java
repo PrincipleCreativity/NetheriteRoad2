@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.util.registry.Registry;
 import org.jetbrains.annotations.NotNull;
+import org.principlecreativty.netheriteroad2.common.util.interfaces.Elementable;
 
 import java.util.List;
 
